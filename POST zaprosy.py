@@ -1,6 +1,6 @@
 import requests
 
-url = ""
+url = "https://jsonplaceholder.typicode.com/posts"
 
 data = {
     "title": "тестовый заголовок post запроса",
