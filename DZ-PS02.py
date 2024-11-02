@@ -21,7 +21,7 @@ pprint.pprint(response_json)
 
 #Задание 3: Отправка данных
 
-response = requests.post('https://jsonplaceholder.typicode.com/posts', data={'title': 'foo', 'body': 'bar', 'userId': 1})
+response = requests.post('https://jsonplaceholder.typicode.com/posts', json={'title': 'foo', 'body': 'bar', 'userId': 1})
 
 response_json = response.json()
 
